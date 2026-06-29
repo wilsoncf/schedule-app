@@ -64,6 +64,6 @@ jobs:
             
             cd /traefik
             
-            docker compose pull schedule-app
+            docker compose pull backend-api
             
             docker compose up -d backend-api
